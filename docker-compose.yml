@@ -1,0 +1,18 @@
+services:
+  db:
+    container_name: pk_payment_tracking-db
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: pk_payment_tracking
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+volumes:
+  db_data:
+networks:
+  default:
+    name: pk_payment_tracking_network
