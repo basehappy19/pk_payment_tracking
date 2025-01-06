@@ -48,6 +48,7 @@ server/.yarn/install-state.gz
 server/logs
 server/logs/api-log.json
 server/.env
+server/Uploads/student/profile
 
 
 server/.DS_Store
