@@ -14,11 +14,11 @@ const MainMenu = ({ session }: { session: Session | null }) => {
         <>
             <div className="grid grid-cols-1 w-full gap-4 mx-auto px-4 py-8 max-w-4xl">
                 <h2 className='text-center font-bold text-4xl'>ระบบตรวจสอบค่าบำรุงการศึกษา</h2>
-                <div className="">
-                    <p className='text-center font-semibold text-lg -mt-3 dark:text-gray-300 text-gray-700'>
+                <div className="text-pink-600">
+                    <p className='text-center font-semibold text-lg -mt-3 dark:text-gray-300'>
                     กลุ่มบริหารงบประมาณ โรงเรียนภูเขียว อำเภอภูเขียว จังหวัดชัยภูมิ
                     </p>
-                    <p className='text-center font-semibold text-lg -mt-1 dark:text-gray-300 text-gray-700'>
+                    <p className='text-center font-semibold text-lg -mt-1 dark:text-gray-300'>
                         สำนักงานเขตพื้นที่การศึกษามัธยมศึกษาชัยภูมิ
                     </p>
                 </div>

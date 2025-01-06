@@ -24,10 +24,10 @@ const Navbar: FC<NavbarProps> = ({ session }) => {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
             <Image src={logo_pk} quality={100} width={40} height={40} alt="logo" />
-            <span className="font-semibold text-3xl">ระบบตรวจสอบค่าบำรุงการศึกษา</span>
+            <span className="font-semibold text-3xl text-rose-900 dark:text-white">ระบบตรวจสอบค่าบำรุงการศึกษา</span>
           </Link>
 
-          <div className="hidden md:flex items-center space-x-4 ">
+          <div className="hidden md:flex items-center space-x-4 text-rose-900 dark:text-white">
             <Link href={`${session && session.role === 'student' ? "/fee" : "/auth/student"}`} className="hover:text-pink-500 transition-colors">
               ตรวจสอบการชำระค่าบำรุงการศึกษา
             </Link>
@@ -62,7 +62,6 @@ const Navbar: FC<NavbarProps> = ({ session }) => {
 
           </div>
         )}
-        test
       </nav>
     </div>
   );
