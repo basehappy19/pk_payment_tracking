@@ -158,7 +158,7 @@ const MainMenu = ({ session }: { session: Session | null }) => {
                                 <Image alt={`Image`} width={96} height={96}  className='w-24 rounded-md object-cover' src={mongkon} />
                                 <div className='text-center'>
                                     <div className='font-light dark:text-amber-100'>นายภาคภูมิ ทีดินดำ</div>
-                                    <div className='font-light text-sm dark:text-amber-100'>⟨ ม.4/1 SMT15 FRONTEND/BACKEND ⟩</div>
+                                    <div className='font-light text-sm dark:text-amber-100'>⟨ ม.4/1 SMT15 WebDevoloper ⟩</div>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +167,7 @@ const MainMenu = ({ session }: { session: Session | null }) => {
                                 <Image alt={`Image`} width={96} height={96}  className='w-24 rounded-md object-cover' src={Time} />
                                 <div className='text-center'>
                                     <div className='font-light dark:text-amber-100'>นางสาวแทมมารีน ตาปราบ</div>
-                                    <div className='font-light text-sm dark:text-amber-100'>⟨ ม.4/1 SMT15 UX/UI ⟩</div>
+                                    <div className='font-light text-sm dark:text-amber-100'>⟨ ม.4/1 SMT15 WebDevoloper ⟩</div>
                                 </div>
                             </div>
                         </div>
