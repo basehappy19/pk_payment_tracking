@@ -40,7 +40,7 @@ const MainMenu = ({ session }: { session: Session | null }) => {
                                 ตรวจสอบการชำระค่าบำรุงการศึกษา
                                 <p className='text-base text-fuchsia-200'>⟨ สำหรับนักเรียนและผู้ปกครอง ⟩</p>
                                 {session && session.role === 'student' && (
-                                    <div className="text-sm mt-2">{session.data.name}</div>
+                                    <span className="text-sm mt-2">{session.data.name}</span>
                                 )}
                             </Link>
 

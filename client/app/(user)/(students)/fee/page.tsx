@@ -77,11 +77,11 @@ export default async function StudentDashboard({ searchParams }: {
   const getPaymentStatusBadge = (payStatus: string) => {
     switch (payStatus) {
       case 'done':
-        return <div className='text-green-500 dark:text-green-600 font-semibold'>ชำระครบเรียบร้อย</div>;
+        return <span className='text-green-500 dark:text-green-600 font-semibold'>ชำระครบเรียบร้อย</span>;
       case 'paying':
-        return <div className='text-orange-500 dark:text-orange-600 font-semibold'>อยู่ระหว่างชำระ</div>;
+        return <span className='text-orange-500 dark:text-orange-600 font-semibold'>อยู่ระหว่างชำระ</span>;
       default:
-        return <div className='text-red-500 dark:text-red-600 font-semibold'>ยังไม่ชำระ</div>;
+        return <span className='text-red-500 dark:text-red-600 font-semibold'>ยังไม่ชำระ</span>;
     }
   }; 
    
